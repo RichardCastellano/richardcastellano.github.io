@@ -1,0 +1,86 @@
+@font-face {
+    font-family: SpaceMono;
+    src: url('./resources/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: SpaceMono;
+    src: url('./resources/fonts/Space_Mono/SpaceMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: SpaceMono;
+    src: url('./resources/fonts/Space_Mono/SpaceMono-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: SpaceMono;
+    src: url('./resources/fonts/Space_Mono/SpaceMono-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-color: lightgray;
+    font-family: SpaceMono, serif;
+}
+ul {
+    width: 710.8px;
+    height: 24px;
+    margin: auto;
+}
+li {
+    display: inline;
+    margin: 5px;
+}
+
+h1, h2, footer {
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(188, 50, 216);
+    max-width: 710.8px;
+}
+
+th {
+    background-color: rgb(201, 99, 221);
+    text-align: center;
+    border: 1px solid black;
+    padding: 1px;
+    font-weight: bold;
+    background-clip: content-box;
+}
+
+td {
+    border: solid 1px;
+    padding: 5px;
+}
+
+hr {
+    width: 800px;
+    margin-top: 50px;
+}
+
+.property {
+    background-color: beige;
+    background-clip: content-box;
+}
+
+#text-properties {
+    margin-top: 50px;
+}
+#font-properties {
+    margin-bottom: 40px;
+}
